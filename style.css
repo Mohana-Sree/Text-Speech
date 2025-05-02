@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #8aa0f6, #9b7fe8);
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana;
+    color: #333;
+    background-attachment: fixed;
+}
+div.ttos {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div.stot {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea, select, button, input[type="range"] {
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #6072d9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+textarea {
+    width: 400px; 
+    height: 150px; 
+    resize: vertical;
+}
+
+select {
+    width: 400px; 
+}
+
+button {
+    width: 200px; 
+    background-color: #0a28bb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+}
+
+button:hover {
+    background-color: #3735b0;
+    
+}
+
+textarea:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #5945bf;
+    box-shadow: 0 0 8px rgba(75, 69, 191, 0.5);
+}
+
+#anxiety-graph {
+    width: 400px; 
+    height: 200px; 
+    background-color: #e0e0f1;
+    border: 2px solid #7460d9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+input[type="range"] {
+    width: 400px; 
+    height: 150px;
+
+    resize: vertical;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    div.ttos, div.stot {
+        width: 90%; 
+        margin: 10px 0; 
+    }
+    textarea, select, button, input[type="range"] {
+        width: 100%; 
+    }
+}

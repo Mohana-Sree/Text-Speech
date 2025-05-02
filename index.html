@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TexSpee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Text to Speech & Speech to Text</h1>
+        <h4>Click the Read button to read the text aloud.</h4>
+        <h4>Click the Speak button to speak and convert speech to text.</h4>
+        <br>
+    <div class="container">
+    <div id="ttos">
+
+        <center><textarea id="text-input" rows="10" cols="30" placeholder="Enter text here..."></textarea></center>
+        <center><select id="voice-select"></select></center> <br>
+        <center><button id="ti" onclick="textToSpeech()">Read</button></center>
+    </div>
+    <div id="stot">
+    <center><button class="si"onclick="speechtoText()">Speak</button></center>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
