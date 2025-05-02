@@ -1,7 +1,3 @@
-Based on the information available from the GitHub repository [Mohana-Sree/Text-Speech](https://github.com/Mohana-Sree/Text-Speech.git), here is a suggested `README.md` file for the project:
-
----
-
 # Text-Speech
 
 This is a front-end project that converts speech into text and text into speech.
