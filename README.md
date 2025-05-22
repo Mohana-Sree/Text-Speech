@@ -56,4 +56,4 @@ This project utilizes the Web Speech API, which is supported in modern browsers 
 
 ## License
 
-This project is open-source
+This project is MIT LICENSED
